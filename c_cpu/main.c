@@ -34,7 +34,6 @@ int main() {
     double sim_t = 5.0; // simulator time
     double t = 0.001; // delta t
     double t_i = 0.001; //loop iterator
-    double t1=0.0, t2=0.0;
 
 //    printf("%f\n", (r_rcv/(r_rcv*d)) );
 //    printf("%f\n", (d/( sqrt(4*M_PI*D*sim_t*sim_t*sim_t) )) );
@@ -73,9 +72,6 @@ int main() {
                     count_t++;
                     count++;
                     flag[i] = 1;
-                    t2 = t_i;
-                    //printf("%f\n", t_i);
-                    t1 = t_i;
                     //printf("%f\n", t_i);
                 }
 
